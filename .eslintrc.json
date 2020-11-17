@@ -1,0 +1,77 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",  // agrega las reglas de prettier a eslint
+    "plugin:prettier/recommended" 
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "react/prop-types": "off",
+    "import/prefer-default-export": "off",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "no-console": "off",
+    "max-len": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-use-before-define": "error",
+    "@typescript-eslint/no-var-requires": "error",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/require-await": "error",
+    "no-await-in-loop": "error",
+    "dot-notation": "error",
+    "no-bitwise": "error",
+    "class-methods-use-this": "off",
+    "max-statements": [
+      "warn",
+      100
+    ],
+    "complexity": [
+      "off",
+      4
+    ],
+    "max-depth": [
+      "error",
+      4
+    ],
+    "max-params": [
+      "off",
+      4
+    ],
+    "max-nested-callbacks": [
+      "error",
+      3
+    ],
+    "import/no-cycle": "off",
+    "no-underscore-dangle": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/named": "off",
+    "no-param-reassign": "off",
+    "no-prototype-builtins": "off",
+    "no-restricted-syntax": "off",
+    "no-continue": "off",
+    "no-alert": "off",
+    "import/extensions": "off"
+  }
+}

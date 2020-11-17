@@ -1,0 +1,3 @@
+src/app/generated/*
+src/zone-flags.ts
+src/**/*.js

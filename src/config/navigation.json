@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "title": "Dashboard",
+      "icon": "fa fa-lg fa-fw fa-home",
+      "route": "/"
+    },
+    {
+      "title": "Blogs",
+      "icon": "fa fa-lg fa-fw fa-rss",
+      "route": "/blogs"
+    }
+  ]
+}
